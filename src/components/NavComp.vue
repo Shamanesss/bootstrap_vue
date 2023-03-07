@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <img src="@/assets/developer.png" alt="Bootstrap" width="200" height="136">
   <div class="container justify-content-around">
           <router-link to="/" class="nav-link active" aria-current="page" ><span class="material-icons-round h1">
@@ -25,5 +25,8 @@ export default {
    border: 1px solid white;
   border-radius: 50%;
    background-color: rgb(193, 220, 228);
+}
+nav{
+    background-color: #42b983;
 }
 </style>
